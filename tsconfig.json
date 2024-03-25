@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "baseUrl": "./", 
+    "outDir": "./dist"
+  },
+  "include": [ "src/**/*.ts" ], 
+  "exclude": [ "node_modules", "**/*.test.ts" ]
+}
