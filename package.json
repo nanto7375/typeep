@@ -2,14 +2,12 @@
   "name": "typeep",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "start:dev": "nodemon --exec ts-node src/app.ts",
+    "start:dev": "nodemon --watch src --exec ts-node src/app.ts",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "author": "nanto",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
@@ -20,9 +18,15 @@
     "@types/cors": "^2.8.17",
     "@types/express": "^4.17.21",
     "@types/node": "^20.11.30",
+    "@typescript-eslint/eslint-plugin": "^7.3.1",
+    "@typescript-eslint/parser": "^7.3.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint": "^8.57.0",
+    "prettier": "^2.7.1",
     "nodemon": "^3.1.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.3",
+    "typescript-eslint": "^7.3.1"
   }
 }
